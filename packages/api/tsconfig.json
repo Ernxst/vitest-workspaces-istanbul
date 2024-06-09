@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "types": ["@cloudflare/workers-types", "@cloudflare/vitest-pool-workers"]
+  },
+  "include": ["src", "vitest.config.ts"],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
